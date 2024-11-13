@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position:fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #fff;
+    padding: 20px 250px 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px rgb(174, 172, 172);
+    
+}
+.logo{
+    
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 150px;
+    color:rgb(30, 228, 30);
+    
+    
+    
+}
+.navbar a{
+    font-size:20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    
+}
+.navbar a:hover{
+    transform: scale(1.99);
+    background-color:rgb(12, 251, 12) ;
+    border-radius: 10px;
+    
+    
+}
+
+.main img{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url(background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:670px;
+   
+    
+}
+.home{
+    color:black;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 15%;
+    
+}
+.home h1{
+    font-size: 80px;
+    color:rgb(27, 231, 27);
+    color:rgb(47, 47, 47);
+}
+.home h2{
+    font-size: 40px;
+}
+.button1 button{
+    margin-top: 50px;
+    margin-left: 390px;
+    height: 50px;
+    font-size: 20px;
+    border: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:  rgb(12, 251, 12);
+    
+}
+.button1 button:hover{
+    transform: scale(1.09);
+}
+.about h1{
+    background-color: rgb(12, 251, 12);
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(47, 47, 47);
+}
+.aboutus{
+     margin-left: 50px;
+     margin-right: 50px;
+     
+}
+.aboutus p{
+    text-align: justify;
+    font-size: 23px;
+}
+.menu h1{
+    background-color: rgb(12, 251, 12);
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(47, 47, 47);
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item1{
+    background-color:white;
+    height: 420px;
+    width: 280px;
+    margin: 50px;
+    margin-left: 140px;
+    border:black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(174, 172, 172);
+}
+.item1:hover{
+    transform: scale(1.09);
+}
+.item1 img{
+    height: 280px;
+    width: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.item1 p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.item1 h2{
+    text-align: center;
+}
+.item1 button{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    background-color:rgb(12, 251, 12);
+}
+.gallery h1{
+    background-color: rgb(12, 251, 12);
+    text-align: center;
+    color:rgb(47, 47, 47);
+    border-radius: 10px;
+      
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+}
+.photos img{
+    height: 300px;
+    width: 400px;
+    margin:50px;
+    border-radius: 20px;
+}
+.photos img:hover{
+    transform: scale(1.09);
+}
+.contact h1{
+    background-color: rgb(12, 251, 12);
+    text-align: center;
+    border-radius: 10px;
+    color:rgb(47, 47, 47);
+}
+.details{
+    text-align:justify;
+    font-size: 23px;
+}
+.details p{
+    margin-left: 570px;
+    margin-top: 30px;
+}
+.icons2{
+    display: flex;
+    flex-direction: row;
+    margin-left:680px;
+    margin-top: 20px;
+    
+}
+.facebook i{
+    margin-right: 30px;
+    color: rgb(25, 25, 236);
+    font-size: 30px;
+}
+.twitter i{
+    margin-right: 30px;
+    color: rgb(25, 194, 236);
+    font-size: 30px;
+    margin-bottom:5px;
+}
+.instagram i{
+    margin-right: 20px;
+    color: rgb(236, 25, 120);
+    font-size: 30px;
+    margin-bottom:5px;
+}
+.facebook i:hover{
+    transform: scale(1.29);
+}
+.twitter i:hover{
+    transform: scale(1.29);
+}
+.instagram i:hover{
+    transform: scale(1.29);
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
